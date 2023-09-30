@@ -4,7 +4,7 @@
   "description": "Automation Framework using Jest and Puppeteer",
   "main": "index.js",
   "scripts": {
-    "test": "jest --forceExit"
+    "test": "jest --detectOpenHandles --forceExit"
   },
   "repository": {
     "type": "git",
